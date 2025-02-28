@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Domestic Slider Section -->
+    <section class="dom-slider-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="dom-slider-wrap">
+                        <div class="dom-slider-head text-center py-4">
+                            <h3 class="py-1 mb-0">Most Popular Domestic Destinations</h3>
+                            <p class="">Make your vacation more memorable with Club Resorto Hospitality exotic trevel
+                                locations, We offers 4-5 star holiday accomodation</p>
+                        </div>
+                        <div class="" id="dom-slider-cnt">
+
+                            <div class="dom-slider-item">
+                                <div class="dom-slider-item-box">
+                                    <img src="img/hotel_pride_plaza.avif" alt="">
+                                </div>
+                            </div>
+                            <div class="dom-slider-item">
+                                <div class="dom-slider-item-box">
+                                    <img src="img/hotel_pride_plaza.avif" alt="">
+                                </div>
+                            </div>
+                            <div class="dom-slider-item">
+                                <div class="dom-slider-item-box">
+                                    <img src="img/hotel_pride_plaza.avif" alt="">
+                                </div>
+                            </div>
+                            <div class="dom-slider-item">
+                                <div class="dom-slider-item-box">
+                                    <img src="img/hotel_pride_plaza.avif" alt="">
+                                </div>
+                            </div>
+                            <div class="dom-slider-item">
+                                <div class="dom-slider-item-box">
+                                    <img src="img/hotel_pride_plaza.avif" alt="">
+                                </div>
+                            </div>
+                            <div class="dom-slider-item">
+                                <div class="dom-slider-item-box">
+                                    <img src="img/hotel_pride_plaza.avif" alt="">
+                                </div>
+                            </div>
+                            <div class="dom-slider-item">
+                                <div class="dom-slider-item-box">
+                                    <img src="img/hotel_pride_plaza.avif" alt="">
+                                </div>
+                            </div>
+                            <div class="dom-slider-item">
+                                <div class="dom-slider-item-box">
+                                    <img src="img/hotel_pride_plaza.avif" alt="">
+                                </div>
+                            </div>
+                            <div class="dom-slider-item">
+                                <div class="dom-slider-item-box">
+                                    <img src="img/hotel_pride_plaza.avif" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="js/slick.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+
+            $('#dom-slider-cnt').slick({
+                dots: true,
+                arrows: true,
+                Infinity: true,
+                autoplay: false,
+                autoplayspeed: 1000,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                responsive: [
+                    {
+                        breakpoint: 575,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                        }
+                    }
+                ]
+            });
+
+        });
+    </script>
+
+
+</body>
+
+</html>
